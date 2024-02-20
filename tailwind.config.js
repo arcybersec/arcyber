@@ -13,7 +13,6 @@ export default {
       "white": "#FFFFFF",
     },
     fontFamily: {
-      "ubuntu": ["Ubuntu"],
       "sans": ["Ubuntu"]
     }
   },

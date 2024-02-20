@@ -78,7 +78,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
 
                 <Button
                     text='Join Us'
-                    onClick={() => console.log('Clicked!')}
+                    onClick={() => window.open("https://forms.gle/hQNyB6wrCX2NmtPs9")}
                     className='rounded-md border-primary border-2 bg-dark-grey text-primary w-32 h-10 font-bold text-xl'
                 />
             </div>

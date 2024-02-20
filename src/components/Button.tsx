@@ -11,7 +11,7 @@ export const Button: React.FC<ButtonProps> = ({ text, onClick, icon, className }
     return (
         <button 
             onClick={onClick}
-            className={twMerge(className, "flex items-center justify-center w-20 h-10")}
+            className={twMerge("flex items-center gap-x-2 justify-center w-20 h-10", className)}
         >
             {icon}
             {text}

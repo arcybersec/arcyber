@@ -12,6 +12,9 @@ export default {
         primary: "#9FEF00",
         secondary: "#0F0F0F"
     },
+    fontFamily: {
+      "sans": ["Ubuntu"]
+    }
   },
   plugins: [],
   }

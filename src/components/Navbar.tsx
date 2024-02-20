@@ -53,25 +53,25 @@ export const Navbar: React.FC<NavbarProps> = () => {
             <div className="flex items-center justify-center gap-x-10">
                 
                 <a href="#home" className={`
-                    text-xl font-medium
+                    font-medium
                     duration-500 ease-in-out
-                    ${scrolledSection == "home" ? "text-primary text-2xl" : "text-white"}
+                    ${scrolledSection == "home" ? "text-primary text-2xl" : "text-xl text-white"}
                 `}>
                     Home
                 </a>
 
                 <a href="#about" className={`
-                    text-xl font-medium
+                    font-medium
                     duration-500 ease-in-out
-                    ${scrolledSection == "about" ? "text-primary text-2xl" : "text-white"}
+                    ${scrolledSection == "about" ? "text-primary text-2xl" : "text-xl text-white"}
                 `}>
                     About
                 </a>
 
                 <a href="#teams" className={`
-                    text-xl font-medium
+                    font-medium
                     duration-500 ease-in-out
-                    ${scrolledSection == "teams" ? "text-primary text-2xl" : "text-white"}
+                    ${scrolledSection == "teams" ? "text-primary text-2xl" : "text-xl text-white"}
                 `}>
                     Teams
                 </a>

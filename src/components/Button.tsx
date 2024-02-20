@@ -8,10 +8,17 @@ interface ButtonProps{
 }
 
 export const Button: React.FC<ButtonProps> = ({ text, onClick, icon, className }) => {
+
     return (
         <button 
             onClick={onClick}
-            className={twMerge("flex items-center gap-x-3 justify-center w-56 h-16", className)}
+            className={twMerge(
+                `
+                flex items-center gap-x-2 justify-center w-56 h-16
+                transition duration-300 ease-in-out hover:scale-110
+                `, 
+                className
+            )}
         >
             {icon}
             {text}

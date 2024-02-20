@@ -1,6 +1,6 @@
 import { twMerge } from "tailwind-merge";
 
-interface ButtonProps {
+interface ButtonProps{
     text?: string;
     onClick?: () => void;
     icon?: React.ReactNode;
@@ -14,7 +14,7 @@ export const Button: React.FC<ButtonProps> = ({ text, onClick, icon, className }
             onClick={onClick}
             className={twMerge(
                 `
-                flex items-center gap-x-2 justify-center w-20 h-10
+                flex items-center gap-x-2 justify-center w-56 h-16
                 transition duration-300 ease-in-out hover:scale-110
                 `, 
                 className

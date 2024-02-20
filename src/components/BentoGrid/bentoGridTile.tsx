@@ -16,10 +16,10 @@ const BentoGridTile : React.FC<BentoGridTileProps> = (props : BentoGridTileProps
         <div 
             className={`
             col-span-${props.cols} line-clamp-${props.lines} 
-            border-2 ${props.borderHighlight ? `border-primary` : `border-txt`}
-            ${props.bgHighlight ? `bg-primary` : `bg-transparent`}
+            border-2 ${props.borderHighlight ? "border-primary" : "border-txt"}
+            ${props.bgHighlight ? "bg-primary" : "bg-transparent"}
             bg-opacity-20
-            ${props.rounded ? `rounded-md` : `rounded-none`}
+            ${props.rounded ? "rounded-md" : "rounded-none"}
             flex flex-col items-center`}
         >
             <h1>Heloo</h1>

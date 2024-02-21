@@ -1,11 +1,10 @@
 import { Flag } from "lucide-react"
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import CompetitionTile from "../components/CompetitionTile";
 
 const AboutUs : React.FC = () => {
     return(
         <>
-            <div className="w-full h-[100vh] p-10 flex flex-col items-center justify-center bg-bgr" id="about">
+            <div className="section w-full h-[100vh] p-10 flex flex-col items-center justify-center bg-bgr" id="about">
                 <h1 className="text-8xl font-black text-txt"><span className="text-primary">~$ </span>Who are we?</h1>
                 <h2 className="text-txt w-[70%] text-5xl mt-10 text-center mb-10 font-medium">
                     Where <span className="font-black text-primary">coding</span> meets <span className="font-black text-primary">cybersecurity</span> excellence. Unleash your potential in a hands-on,
@@ -51,10 +50,10 @@ const AboutUs : React.FC = () => {
                         className="flex flex-row w-full h-auto p-10 items-center justify-center mb-[100vh]"
                     >
                         <CompetitionTile>
-                            <Flag className="text-primary w-28 h-28"/>
+                            <img className="w-[90%] h-auto" src="https://unbreakable.ro/wp-content/uploads/2024/01/logo-unbreakable.png"/>
                         </CompetitionTile>
                         <CompetitionTile>
-                            <Flag className="text-primary w-28 h-28"/>
+                        <img className="w-[90%] h-auto" src="https://www.basecybersecurity.com/wp-content/uploads/2018/12/logo-1-e1556187266657.png"/>
                         </CompetitionTile>
                         <CompetitionTile>
                             <Flag className="text-primary w-28 h-28"/>

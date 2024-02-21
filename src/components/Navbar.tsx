@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "./Button"
+import { PlusCircle } from "lucide-react";
 
 interface NavbarProps {
     
@@ -78,8 +79,9 @@ export const Navbar: React.FC<NavbarProps> = () => {
 
                 <Button
                     text='Join Us'
+                    icon=<PlusCircle/>  
                     onClick={() => window.open("https://forms.gle/hQNyB6wrCX2NmtPs9")}
-                    className='rounded-md border-primary border-2 bg-dark-grey text-primary w-32 h-10 font-bold text-xl'
+                    className='bg-transparent rounded-md text-xl text-primary font-medium border-2 border-primary hover:text-bgr hover:bg-primary  transition duration-200 ease-in-out w-32 h-10'
                 />
             </div>
 

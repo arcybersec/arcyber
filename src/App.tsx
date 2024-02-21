@@ -7,6 +7,7 @@ import GreenRadial from "./assets/images/greenRadial.png"
 import WhiteRadial from "./assets/images/WhiteRadial.png"
 import { FaFlag, FaServer } from "react-icons/fa";
 import { Navbar } from "./components/Navbar";
+import AboutUs from "./sections/AboutUs";
 
 const subtitleOptions = [
   "bad opsec fella?",
@@ -25,7 +26,8 @@ function App() {
   });
 
   return (
-    <div className="bg-dark-grey h-full w-full flex flex-col items-center justify-start bg-bgr">
+    <div>
+    <div className="bg-dark-grey h-[100vh] w-full flex flex-col items-center justify-start bg-bgr" id="home">
       <Navbar/>
        <FaServer className="fixed left-[8rem] top-[10rem] text-white text-[25rem] opacity-5 transform -rotate-45 collapse md:visible"/>
        <FaFlag className="fixed right-[8rem] top-[12rem] text-primary text-[25rem] opacity-5 transform rotate-45 collapse md:visible"/>
@@ -58,13 +60,16 @@ function App() {
         <Button
           icon={<PlusCircle className="w-8 h-8 "/>}
           className="bg-transparent rounded-md text-2xl text-primary font-medium border-2 border-primary hover:text-bgr hover:bg-primary  transition duration-200 ease-in-out"
-          onClick={()=>""}
+          onClick={()=>window.open("https://forms.gle/hQNyB6wrCX2NmtPs9")}
           text="Join Us"
           key={1}
         />
       </div>
 
       <Footer/>
+    </div>
+    
+    <AboutUs/>
     </div>
   )
 }

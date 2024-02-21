@@ -20,7 +20,7 @@ const AboutUs : React.FC = () => {
                         <div className="bg-tranp-4 rounded shadow border-2 border-gray-400 bg-bgr flex flex-col items-center justify-center p-5">
                             <Flag className="text-primary w-28 h-28"/>
                             <h2 className="text-4xl mt-2 font-semibold mb-2 text-white">CTF's</h2>
-                            <p className="text-xl mt-2 font-semibold mb-2 text-primary">Interesting challenges</p>
+                            <p className="text-xl mt-2 font-semibold mb-2 text-primary">Participating in CTF challenges</p>
                         </div>
                         <div className="bg-tranp-4 rounded shadow bg-primary border-2 border-primary bg-opacity-15 row-span-2 col-span-2 justify-center flex flex-col items-center p-10">
                             <Flag className="text-primary w-28 h-28"/>

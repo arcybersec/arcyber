@@ -3,6 +3,8 @@ import { Button } from "../Button"
 import { PlusCircle } from "lucide-react";
 import { NavbarContext } from "../../context/NavbarContext";
 import { scrollToSection } from "./scrollToSection";
+
+import ArcyberLogo from "../../assets/images/arcyber_logo.png";
 interface NavbarProps {
     
 }
@@ -59,14 +61,18 @@ export const Navbar: React.FC<NavbarProps> = () => {
     },[])
     
     return (
-        <div className={`w-full h-20 fixed flex items-center justify-between px-6 backdrop-blur-sm`}>
+        <div className={`w-full h-20 fixed flex items-center justify-center md:justify-between px-6 backdrop-blur-sm`}>
             <div className="text-4xl font-bold text-white hover:cursor-pointer"
                  onClick={()=>{updateSection("home"); scrollToSection("home", updateSection )}}
             >
-                <h1>arcyber</h1>
+                <img 
+                    src={ArcyberLogo}
+                    className="w-28 h-12"
+                    alt="arcyber"
+                />
             </div>
 
-            <div className="flex items-center justify-center gap-x-10">
+            <div className="hidden md:flex items-center justify-center gap-x-10">
                 
                 <a className={`
                     font-medium

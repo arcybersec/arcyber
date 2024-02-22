@@ -52,8 +52,8 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-    <div className="section bg-dark-grey h-[100vh] w-full flex flex-col items-center justify-start bg-bgr" id="home">
+    <div className="flex items-center justify-start flex-col gap-y-32">
+    <div className="section bg-dark-grey w-full flex flex-col items-center justify-start bg-bgr" id="home">
       <Navbar/>
        <FaServer className="fixed left-[8rem] top-[10rem] text-white text-[25rem] opacity-5 transform -rotate-45 collapse md:visible animate-fade-up animate-duration-200"/>
        <FaFlag className="fixed right-[8rem] top-[12rem] text-primary text-[25rem] opacity-5 transform rotate-45 collapse md:visible"/>
@@ -61,7 +61,9 @@ const App = () => {
        <img src={GreenRadial} className="fixed left-[-30rem] bottom-[-30rem] opacity-40 collapse md:visible"/>
        <img src={WhiteRadial} className="fixed right-[-30rem] bottom-[-30rem] opacity-40 collapse md:visible"/>
 
-        <h1 className="md:text-[13rem] text-[10rem] font-black text-txt mt-36">AR<span className="text-primary">C</span></h1>
+       <h1 className="text-xl md:text-2xl font-bold text-txt mt-28 md:mt-36 mb-[-3rem]">CoderDojo Arad CyberSec @ CNMN</h1>
+
+        <h1 className="md:text-[13rem] text-[10rem] font-black text-txt">AR<span className="text-primary">C</span></h1>
 
         <h2 className="md:text-[2.5rem] text-[1.5rem] md:mt-[-3rem] text-primary">root@arcyber:"
           <span className="text-txt">
@@ -74,7 +76,7 @@ const App = () => {
      
 
 
-      <div className="flex md:flex-row flex-col md:gap-x-20 gap-y-10 mt-16">
+      <div className="flex md:flex-row flex-col md:gap-x-20 gap-y-10 mt-16 z-30">
         <Button
           icon={<BadgeInfo className="w-8 h-8 "/>}
           className="bg-txt rounded-md text-2xl font-medium text-bgr hover:bg-bgr hover:text-txt hover:border-2 hover:border-txt transition duration-200 ease-in-out"
@@ -92,7 +94,6 @@ const App = () => {
         />
       </div>
 
-      <Footer/>
     </div>
     
     <AboutUs/>

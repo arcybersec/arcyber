@@ -1,8 +1,11 @@
+import 'animate.css';
+
 import { useContext, useEffect, useState } from "react"
 
 import { Button } from "./components/Button";
 import { BadgeInfo, PlusCircle} from "lucide-react";
 import Footer from "./components/Footer/Footer";
+
 
 import GreenRadial from "./assets/images/greenRadial.png"
 import WhiteRadial from "./assets/images/WhiteRadial.png"
@@ -61,11 +64,13 @@ const App = () => {
        <img src={GreenRadial} className="fixed left-[-30rem] bottom-[-30rem] opacity-40 collapse md:visible"/>
        <img src={WhiteRadial} className="fixed right-[-30rem] bottom-[-30rem] opacity-40 collapse md:visible"/>
 
-       <h1 className="text-xl md:text-2xl font-bold text-txt mt-28 md:mt-36 mb-[-3rem]">CoderDojo Arad CyberSec @ CNMN</h1>
+       <h1 className="text-xl md:text-2xl font-bold text-txt mt-32 md:mt-36 mb-[-3rem]
+       animate__animated animate__fadeInDownBig
+       ">CoderDojo Arad CyberSec @ CNMN</h1>
 
-        <h1 className="md:text-[13rem] text-[10rem] font-black text-txt">AR<span className="text-primary">C</span></h1>
+        <h1 className="md:text-[13rem] text-[10rem] font-black text-txt animate__animated animate__fadeInDown">AR<span className="text-primary">C</span></h1>
 
-        <h2 className="md:text-[2.5rem] text-[1.5rem] md:mt-[-3rem] text-primary">root@arcyber:"
+        <h2 className="md:text-[2.5rem] text-[1.5rem] md:mt-[-3rem] text-primary animate__animated animate__fadeInUp">root@arcyber:"
           <span className="text-txt">
             {subtitle}
           </span>
@@ -76,7 +81,7 @@ const App = () => {
      
 
 
-      <div className="flex md:flex-row flex-col md:gap-x-20 gap-y-10 mt-16 z-30">
+      <div className="flex md:flex-row flex-col md:gap-x-20 gap-y-10 mt-16 z-30 animate__animated animate__fadeInUp">
         <Button
           icon={<BadgeInfo className="w-8 h-8 "/>}
           className="bg-txt rounded-md text-2xl font-medium text-bgr hover:bg-bgr hover:text-txt hover:border-2 hover:border-txt transition duration-200 ease-in-out"

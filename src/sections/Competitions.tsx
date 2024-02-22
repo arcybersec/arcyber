@@ -20,27 +20,27 @@ export const Competitions: React.FC = () => {
 
                         <div className="bg-tranp-4 rounded shadow border-2 border-gray-400 bg-bgr flex flex-col items-center justify-center p-5">
                             <Flag className="text-primary w-28 h-28"/>
-                            <h2 className="text-4xl mt-2 font-semibold mb-2 text-white">CTFs</h2>
-                            <p className="text-xl mt-2 font-semibold mb-2 text-primary">Solving challenging problems</p>
+                            <h2 className="md:text-4xl text-3xl mt-2 font-semibold mb-2 text-white">CTFs</h2>
+                            <p className="text-xl mt-2 font-semibold mb-2 text-primary text-center">Solving challenging problems</p>
                         </div>
 
                         <div className="bg-tranp-4 rounded shadow border-2 border-gray-400 bg-bgr flex flex-col items-center justify-center p-5">
                             <Router className="text-primary w-28 h-28"/>
-                            <h2 className="text-4xl mt-2 font-semibold mb-2 text-white">Networking</h2>
-                            <p className="text-xl mt-2 font-semibold mb-2 text-primary">Learn about complex networks</p>
+                            <h2 className="md:text-4xl text-3xl mt-2 font-semibold mb-2 text-white">Networking</h2>
+                            <p className="text-xl mt-2 font-semibold mb-2 text-primary text-center">Learn about complex networks</p>
                         </div>
 
                         <div className="bg-tranp-4 rounded shadow border-2 border-gray-400 bg-bgr flex flex-col items-center justify-center p-5">
                             <Cpu className="text-primary w-28 h-28"/>
-                            <h2 className="text-4xl mt-2 font-semibold mb-2 text-white">Computers</h2>
-                            <p className="text-xl mt-2 font-semibold mb-2 text-primary">Architecture & Fundamentals</p>
+                            <h2 className="md:text-4xl text-3xl mt-2 font-semibold mb-2 text-white">Computers</h2>
+                            <p className="text-xl mt-2 font-semibold mb-2 text-primary text-center">Architecture & Fundamentals</p>
                         </div>
 
 
                         <div className="bg-tranp-4 rounded shadow border-2 border-gray-400 bg-bgr flex flex-col items-center justify-center p-5">
                             <BrainCog className="text-primary w-28 h-28"/>
-                            <h2 className="text-4xl mt-2 font-semibold mb-2 text-white">Critical Thinking</h2>
-                            <p className="text-xl mt-2 font-semibold mb-2 text-primary">Problem solving skills</p>
+                            <h2 className="md:text-4xl text-3xl mt-2 font-semibold mb-2 text-white">Critical Thinking</h2>
+                            <p className="text-xl mt-2 font-semibold mb-2 text-primary text-center">Problem solving skills</p>
                         </div>
 
 
